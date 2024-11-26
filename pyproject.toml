@@ -1,0 +1,18 @@
+[project]
+name = "CtstBot"
+version = "0.0.1"
+description = "Default template for PDM package"
+authors = [
+    {name = "Sibuxiangx", email = "sibuxiang@proton.me"},
+]
+dependencies = [
+    "cocotst>=0.0.2",
+    "graia-saya>=0.0.20",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
